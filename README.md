@@ -7,8 +7,6 @@
 <p align="center">
   <a href="https://barathvasan-dev.github.io/paperpulse-dsa-mini-project/">▶ View the interactive demo</a>
   ·
-  <a href="https://youtu.be/tGwoRzBT6Mw">▶ Watch the video</a>
-  ·
   <a href="https://github.com/barathvasan-dev/paperpulse-dsa-mini-project">View source</a>
 </p>
 
