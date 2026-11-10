@@ -91,6 +91,8 @@ zig build-exe engine/pulse.c -target wasm32-freestanding -O ReleaseSmall -fno-en
 
 Click the thumbnail above to play the demo on YouTube. GitHub README files do not support embedded YouTube players, so the thumbnail opens the video in a browser.
 
+For native playback on a GitHub-hosted page, open the [PaperPulse video player](https://barathvasan-dev.github.io/paperpulse-dsa-mini-project/).
+
 - [`output/paperpulse-rankings.csv`](output/paperpulse-rankings.csv) is an example ranking export.
 
 ## Privacy and limitations
