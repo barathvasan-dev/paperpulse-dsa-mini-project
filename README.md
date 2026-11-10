@@ -1,6 +1,31 @@
 # PAPERPULSE: A DSA-BASED PAST QUESTION PAPER ANALYSIS SYSTEM
 
-PaperPulse is a browser-based mini project that helps students review past question papers, identify recurring questions, and inspect evidence across source papers. It demonstrates practical Data Structures and Algorithms concepts through a local-first study workspace.
+<p align="center">
+  <strong>Find recurring questions. Understand the evidence. Revise smarter.</strong>
+</p>
+
+<p align="center">
+  <a href="https://barathvasan-dev.github.io/paperpulse-dsa-mini-project/">▶ View the interactive demo</a>
+  ·
+  <a href="https://youtu.be/tGwoRzBT6Mw">▶ Watch the video</a>
+  ·
+  <a href="https://github.com/barathvasan-dev/paperpulse-dsa-mini-project">View source</a>
+</p>
+
+PaperPulse is a browser-based academic mini project that analyzes past question papers and identifies recurring questions across multiple source papers. It combines a JavaScript interface, a C analysis engine compiled to WebAssembly, and local browser storage to provide a private, install-free study workspace.
+
+> **Project title:** PAPERPULSE: A DSA-BASED PAST QUESTION PAPER ANALYSIS SYSTEM
+
+## Project highlights
+
+| Area | Implementation |
+| --- | --- |
+| Input | Plain text, PDF, image, and OCR-based extraction |
+| Analysis | Token normalization and ordered similarity |
+| Grouping | Transitive recurring-question groups |
+| Output | Ranked evidence view and CSV export |
+| Runtime | Browser, WebAssembly, and local storage |
+| Privacy | Papers are processed locally on the device |
 
 ## Features
 
@@ -13,14 +38,18 @@ PaperPulse is a browser-based mini project that helps students review past quest
 - Export the current ranking as CSV.
 - Run entirely in the browser with local storage; uploaded source files are not sent to a server.
 
-## DSA concepts
+## DSA algorithms used
+
+The project’s main contribution is the use of classical Data Structures and Algorithms to turn unstructured past papers into ranked revision evidence.
 
 The analysis engine in [`engine/pulse.c`](engine/pulse.c) uses:
 
-1. A chained hash-map inverted index to find candidate question pairs that share tokens.
-2. Longest Common Subsequence (LCS) dynamic programming to measure ordered token similarity.
-3. Union-Find with path compression and union by size to build transitive question groups.
-4. Randomized Quick Sort to rank groups by coverage, marks, and a stable component identifier.
+| Algorithm / data structure | Purpose in PaperPulse | Complexity |
+| --- | --- | --- |
+| **Chained hash-map inverted index** | Finds candidate question pairs that share normalized tokens without comparing every pair blindly. | Expected near-linear index lookup |
+| **Longest Common Subsequence (LCS)** | Measures how much of two questions appears in the same order. Similarity is `2 × LCS / (length A + length B)`. | `O(m × n)` per comparison |
+| **Union-Find / Disjoint Set Union** | Merges matching pairs transitively, so related questions form one recurring group. Uses path compression and union by size. | Near-constant amortized union/find |
+| **Randomized Quick Sort** | Ranks groups by distinct-paper coverage, known marks, and component ID. | Expected `O(g log g)` |
 
 The compiled WebAssembly engine is included at [`dist/pulse.wasm`](dist/pulse.wasm), so no build step is required for normal use.
 
@@ -65,33 +94,43 @@ If Zig 0.14.1 is installed, rebuild the included engine from the project directo
 zig build-exe engine/pulse.c -target wasm32-freestanding -O ReleaseSmall -fno-entry --export=reset --export=input --export=analyze --export=ranked --export=group --export=coverage --export=score --export-memory -femit-bin=dist/pulse.wasm
 ```
 
-## Demo assets
+## Screenshots and demo
 
-### Screenshots
+### Application screens
 
-#### Workspace
+The screenshots below are intentionally sized for readability in the GitHub page. Full-resolution files are available in [`screenshots/`](screenshots/).
 
-![PaperPulse workspace](screenshots/workspace.png)
+<p>
+  <strong>Workspace</strong><br>
+  <img src="screenshots/workspace.png" alt="PaperPulse workspace" width="720">
+</p>
 
-#### Paper library
+<p>
+  <strong>Paper library</strong><br>
+  <img src="screenshots/paper-library.png" alt="PaperPulse paper library" width="720">
+</p>
 
-![PaperPulse paper library](screenshots/paper-library.png)
+<p>
+  <strong>Question ranking</strong><br>
+  <img src="screenshots/question-ranking.png" alt="PaperPulse question ranking" width="720">
+</p>
 
-#### Question ranking
+<p>
+  <strong>Algorithm lab</strong><br>
+  <img src="screenshots/algorithm-lab.png" alt="PaperPulse algorithm lab" width="720">
+</p>
 
-![PaperPulse question ranking](screenshots/question-ranking.png)
+### Video demonstration
 
-#### Algorithm lab
+<a href="https://youtu.be/tGwoRzBT6Mw">
+  <img src="https://img.youtube.com/vi/tGwoRzBT6Mw/maxresdefault.jpg" alt="Watch the PaperPulse demo video" width="720">
+</a>
 
-![PaperPulse algorithm lab](screenshots/algorithm-lab.png)
+<p align="center">
+  <a href="https://youtu.be/tGwoRzBT6Mw"><strong>▶ Click the image to watch the PaperPulse demo on YouTube</strong></a>
+</p>
 
-### Demo video
-
-[![Watch the PaperPulse demo video](https://img.youtube.com/vi/tGwoRzBT6Mw/maxresdefault.jpg)](https://youtu.be/tGwoRzBT6Mw)
-
-Click the thumbnail above to play the demo on YouTube. GitHub README files do not support embedded YouTube players, so the thumbnail opens the video in a browser.
-
-For native playback on a GitHub-hosted page, open the [PaperPulse video player](https://barathvasan-dev.github.io/paperpulse-dsa-mini-project/).
+GitHub does not allow an interactive YouTube player inside a README. The [GitHub Pages video player](https://barathvasan-dev.github.io/paperpulse-dsa-mini-project/) provides native browser playback using the hosted MP4.
 
 - [`output/paperpulse-rankings.csv`](output/paperpulse-rankings.csv) is an example ranking export.
 
