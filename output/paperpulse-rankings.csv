@@ -1,0 +1,31 @@
+﻿Rank,Distinct papers,Question,Paper,Paper ID,Year,Marks
+1,4,Explain the traversal methods of a binary tree.,Assignment 1,e509b0fb-0d4e-483d-a8ef-caa8ebdcac97,2023,13
+1,4,Explain the traversal methods of a binary tree.,Assignment 1,cb314b69-250d-4ebd-ba10-62897a771ba3,2024,5
+1,4,Explain the traversal methods of a binary tree with examples.,Semester 1,c43450b0-c296-4fe3-9ab6-ce4441a5cd4e,2023,10
+1,4,Explain the traversal methods of a binary tree with examples.,Semester 1,4fdf3ecc-69f1-41f2-8e8a-bc3be84aed8e,2024,10
+2,3,Compare breadth-first search and depth-first search on a graph.,Assignment 2,be0a3879-1d43-4ba1-9013-bd4a886d1380,2024,4
+2,3,Compare breadth-first search and depth-first search on a graph.,Semester 1,c43450b0-c296-4fe3-9ab6-ce4441a5cd4e,2023,12
+2,3,Compare breadth-first search and depth-first search on a graph.,Semester 1,4fdf3ecc-69f1-41f2-8e8a-bc3be84aed8e,2024,12
+3,3,Explain collision resolution using separate chaining in a hash table.,Assignment 2,d8dadfe6-1661-40ce-a224-a36764db11ea,2023,5
+3,3,Explain collision resolution using separate chaining in a hash table.,Semester 1,c43450b0-c296-4fe3-9ab6-ce4441a5cd4e,2023,10
+3,3,Explain collision resolution using separate chaining in a hash table.,Semester 1,4fdf3ecc-69f1-41f2-8e8a-bc3be84aed8e,2024,10
+4,3,Trace binary search on a sorted array of ten integers.,Assignment 1,e509b0fb-0d4e-483d-a8ef-caa8ebdcac97,2023,5
+4,3,Trace binary search on a sorted array of ten integers.,Semester 1,c43450b0-c296-4fe3-9ab6-ce4441a5cd4e,2023,8
+4,3,Trace binary search on a sorted array of ten integers.,Semester 1,4fdf3ecc-69f1-41f2-8e8a-bc3be84aed8e,2024,8
+5,2,Derive the time complexity of merge sort using its recurrence.,Semester 1,c43450b0-c296-4fe3-9ab6-ce4441a5cd4e,2023,10
+5,2,Derive the time complexity of merge sort using its recurrence.,Semester 1,4fdf3ecc-69f1-41f2-8e8a-bc3be84aed8e,2024,10
+6,2,Construct a minimum spanning tree using Kruskal's algorithm.,Assignment 2,d8dadfe6-1661-40ce-a224-a36764db11ea,2023,5
+6,2,Construct a minimum spanning tree using Kruskal's algorithm.,Assignment 2,be0a3879-1d43-4ba1-9013-bd4a886d1380,2024,5
+7,2,Show how a stack checks balanced parentheses in an expression.,Assignment 1,e509b0fb-0d4e-483d-a8ef-caa8ebdcac97,2023,4
+7,2,Show how a stack checks balanced parentheses in an expression.,Assignment 1,cb314b69-250d-4ebd-ba10-62897a771ba3,2024,4
+8,2,Compare insertion and deletion in arrays and linked lists.,Assignment 1,e509b0fb-0d4e-483d-a8ef-caa8ebdcac97,2023,4
+8,2,Compare insertion and deletion in arrays and linked lists.,Assignment 1,cb314b69-250d-4ebd-ba10-62897a771ba3,2024,4
+9,2,Describe the traversal methods of a binary tree.,Assignment 2,d8dadfe6-1661-40ce-a224-a36764db11ea,2023,0
+9,2,Describe the traversal methods of a binary tree.,Assignment 2,be0a3879-1d43-4ba1-9013-bd4a886d1380,2024,4
+10,1,Illustrate binary search on a sorted array of ten integers.,Assignment 1,cb314b69-250d-4ebd-ba10-62897a771ba3,2024,5
+11,1,Describe collision resolution using separate chaining in a hash table.,Assignment 2,be0a3879-1d43-4ba1-9013-bd4a886d1380,2024,5
+12,1,"Trace the partition step of quicksort on the keys 8, 3, 6, 1, 5.",Assignment 2,d8dadfe6-1661-40ce-a224-a36764db11ea,2023,4
+13,1,State the empty and full conditions for a circular queue.,Assignment 1,e509b0fb-0d4e-483d-a8ef-caa8ebdcac97,2023,2
+14,1,Explain the purpose of a sentinel node in a linked list.,Assignment 1,cb314b69-250d-4ebd-ba10-62897a771ba3,2024,2
+15,1,Define the load factor of a hash table.,Assignment 2,d8dadfe6-1661-40ce-a224-a36764db11ea,2023,2
+16,1,State the heap property of a min-heap.,Assignment 2,be0a3879-1d43-4ba1-9013-bd4a886d1380,2024,2

@@ -1,0 +1,5 @@
+1. Explain the traversal methods of a binary tree with examples. [10 marks]
+2. Trace binary search on a sorted array of ten integers. [8 marks]
+3. Explain collision resolution using separate chaining in a hash table. [10 marks]
+4. Compare breadth-first search and depth-first search on a graph. [12 marks]
+5. Derive the time complexity of merge sort using its recurrence. [10 marks]

@@ -1,0 +1,5 @@
+1. Describe the traversal methods of a binary tree. [4 marks]
+2. Explain collision resolution using separate chaining in a hash table. [5 marks]
+3. Construct a minimum spanning tree using Kruskal's algorithm. [5 marks]
+4. Trace the partition step of quicksort on the keys 8, 3, 6, 1, 5. [4 marks]
+5. Define the load factor of a hash table. [2 marks]

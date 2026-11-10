@@ -1,0 +1,5 @@
+1. Describe the traversal methods of a binary tree. [4 marks]
+2. Describe collision resolution using separate chaining in a hash table. [5 marks]
+3. Construct a minimum spanning tree using Kruskal's algorithm. [5 marks]
+4. Compare breadth-first search and depth-first search on a graph. [4 marks]
+5. State the heap property of a min-heap. [2 marks]

@@ -1,0 +1,5 @@
+1. Explain the traversal methods of a binary tree. [5 marks]
+2. Trace binary search on a sorted array of ten integers. [5 marks]
+3. Show how a stack checks balanced parentheses in an expression. [4 marks]
+4. Compare insertion and deletion in arrays and linked lists. [4 marks]
+5. State the empty and full conditions for a circular queue. [2 marks]
