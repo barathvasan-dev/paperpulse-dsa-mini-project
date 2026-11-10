@@ -120,15 +120,11 @@ The screenshots below are intentionally sized for readability in the GitHub page
 
 ### Video demonstration
 
-<a href="https://youtu.be/tGwoRzBT6Mw">
-  <img src="https://img.youtube.com/vi/tGwoRzBT6Mw/maxresdefault.jpg" alt="Watch the PaperPulse demo video" width="720">
-</a>
-
 <p align="center">
-  <a href="https://youtu.be/tGwoRzBT6Mw"><strong>▶ Click the image to watch the PaperPulse demo on YouTube</strong></a>
+  <a href="https://barathvasan-dev.github.io/paperpulse-dsa-mini-project/"><strong>▶ Open the PaperPulse interactive demo and video player</strong></a>
 </p>
 
-GitHub does not allow an interactive YouTube player inside a README. The [GitHub Pages video player](https://barathvasan-dev.github.io/paperpulse-dsa-mini-project/) provides native browser playback using the hosted MP4.
+The [GitHub Pages video player](https://barathvasan-dev.github.io/paperpulse-dsa-mini-project/) provides native browser playback using the hosted MP4.
 
 - [`output/paperpulse-rankings.csv`](output/paperpulse-rankings.csv) is an example ranking export.
 
