@@ -67,9 +67,31 @@ zig build-exe engine/pulse.c -target wasm32-freestanding -O ReleaseSmall -fno-en
 
 ## Demo assets
 
-- [`screenshots/`](screenshots/) contains the workspace, paper library, question ranking, and algorithm-lab views.
+### Screenshots
+
+#### Workspace
+
+![PaperPulse workspace](screenshots/workspace.png)
+
+#### Paper library
+
+![PaperPulse paper library](screenshots/paper-library.png)
+
+#### Question ranking
+
+![PaperPulse question ranking](screenshots/question-ranking.png)
+
+#### Algorithm lab
+
+![PaperPulse algorithm lab](screenshots/algorithm-lab.png)
+
+### Demo video
+
+[▶️ Watch the PaperPulse demo video](https://github.com/barathvasan-dev/paperpulse-dsa-mini-project/releases/download/v1.0.0/demo-video.mp4)
+
+The video is published as a GitHub release asset because it is larger than GitHub's 100 MB regular-file limit. The [`screenshots/`](screenshots/) directory contains the same views as downloadable image files.
+
 - [`output/paperpulse-rankings.csv`](output/paperpulse-rankings.csv) is an example ranking export.
-- The demo recording is intentionally excluded from normal Git history because it is larger than GitHub's 100 MB regular-file limit. Use Git LFS or a release attachment if publishing the video.
 
 ## Privacy and limitations
 
