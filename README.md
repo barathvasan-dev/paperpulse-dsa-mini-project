@@ -87,9 +87,9 @@ zig build-exe engine/pulse.c -target wasm32-freestanding -O ReleaseSmall -fno-en
 
 ### Demo video
 
-[▶️ Watch the PaperPulse demo video](https://github.com/barathvasan-dev/paperpulse-dsa-mini-project/releases/download/v1.0.0/demo-video.mp4)
+[![Watch the PaperPulse demo video](https://img.youtube.com/vi/tGwoRzBT6Mw/maxresdefault.jpg)](https://youtu.be/tGwoRzBT6Mw)
 
-The video is published as a GitHub release asset because it is larger than GitHub's 100 MB regular-file limit. The [`screenshots/`](screenshots/) directory contains the same views as downloadable image files.
+Click the thumbnail above to play the demo on YouTube. GitHub README files do not support embedded YouTube players, so the thumbnail opens the video in a browser.
 
 - [`output/paperpulse-rankings.csv`](output/paperpulse-rankings.csv) is an example ranking export.
 
